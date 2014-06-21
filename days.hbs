@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html>
+
+  <head>
+
+  </head>
+
+  <body>
+    <div class="week">
+      {{week}}
+    </div>
+    <div class="content">
+      <div class="quote-top">{{quotes.[0]}}</div>
+      <div class="type">Week {{type}}</div>
+      {{#each days}}
+        <div class="day">
+          <div class="name">{{name}}</div>
+          <div class="info">{{info}}</div>
+
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      {{/each}}
+      <div class="quote-bottom">{{quotes.[1]}}</div>
+    </div>
+  </body>
+
+</html>

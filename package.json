@@ -1,0 +1,22 @@
+{
+  "name": "diary",
+  "version": "0.0.0",
+  "description": "diary =====",
+  "main": "generate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/VISdiary/diary.git"
+  },
+  "author": "Alexander Selzer <aselzer3@gmail.com> (http://alexselzer.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VISdiary/diary/issues"
+  },
+  "homepage": "https://github.com/VISdiary/diary",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}
