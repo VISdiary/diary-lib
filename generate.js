@@ -1,5 +1,6 @@
 // Uhm...
 var fs = require("fs");
+var exec = require("child_process").exec;
 var Handlebars = require("handlebars");
 
 // so, this isn't built in...
@@ -14,13 +15,25 @@ var weeks = require("./weeks.json");
 var results = [];
 
 var days = Handlebars.compile(fs.readFileSync("./days.hbs").toString());
-var notes = Handlebars.compile(fs.readFileSync("./notes.hbs").toString())
+var notes = Handlebars.compile(fs.readFileSync("./notes.hbs").toString());
 
 weeks.forEach(function(week) {
   results.push({
     days: days(week),
-    notes: notes()
+    notes: notes() // Yeah, it is static, but it could be customized...
   });
 });
 
-console.log(results);
+results.forEach(function(result, i) {
+  fs.writeFileSync("./output/" + i + ".html", result.days);
+});
+
+fs.writeFileSync("./output/notes.html", results[0].notes);
+
+/*
+for (var i = 0; i < results.length; i++) {
+  exec("phantomjs makepdfs.js" + i, )
+}
+
+zZZZ for now...
+*/
