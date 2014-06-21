@@ -1,7 +1,7 @@
 [
   {
     "type": "A",
-    "quote": "Blablabla",
+    "quotes": ["Blablabla","albalbalB"],
     "days": [
       {
         "name": "Monday 23 December",
