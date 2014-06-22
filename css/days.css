@@ -1,0 +1,53 @@
+body {
+  margin: 40px;
+}
+
+.header {
+  height: 20px;
+  margin-top: 20px;
+}
+
+.type {
+  float: right;
+
+  font-family: arial, sans-serif;
+}
+
+.quote-top {
+  float: left;
+  /*text-align: center;*/
+
+  font-family: arial, sans-serif;
+}
+
+.quote-bottom {
+  margin: 10px auto 0 auto;
+  text-align: center;
+
+  font-family: arial, sans-serif;
+}
+
+.quote-top::before,
+.quote-bottom::before {
+  content: "“"
+}
+
+.quote-top::after,
+.quote-bottom:after {
+  content: "“"
+}
+
+.day {
+  border-top: 2px solid #000;
+
+}
+
+.day .name {
+  font-family: arial, sans-serif;
+}
+
+.day .line {
+  height: 14px;
+
+  border-bottom: 1px dotted rgb(78, 78, 78);
+}
