@@ -26,11 +26,11 @@
     ]
   },
   {
-    "type": "A",
-    "quotes": ["Blablabla","albalbalB"],
+    "type": "B",
+    "quotes": ["This that I you hi","Hello blabala"],
     "days": [
       {
-        "name": "Monday 23 December",
+        "name": "Monday 331 December",
         "info": null
       },
       {

@@ -59,3 +59,9 @@ for (var i = 0; i < results.length; i++) {
     }
   });
 }
+
+exec("phantomjs makepdfs.js notes", function(err, stdout, stderr) {
+  if (err) {
+    console.log("uh oh", err);
+  }
+});

@@ -8,3 +8,5 @@ mkdir -p output/pdf
 node generate.js
 
 kill $!
+
+node merge-pdfs.js

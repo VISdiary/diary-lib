@@ -1,10 +1,11 @@
 body {
-  margin: 40px;
+  margin: 0.5cm;
+  font-size: 14px;
 }
 
 .header {
+  padding-top: 20px;
   height: 20px;
-  margin-top: 20px;
 }
 
 .type {
@@ -18,13 +19,15 @@ body {
   /*text-align: center;*/
 
   font-family: arial, sans-serif;
+  font-style: italic;
 }
 
 .quote-bottom {
-  margin: 10px auto 0 auto;
+  margin: 4px auto 0 auto;
   text-align: center;
 
   font-family: arial, sans-serif;
+  font-style: italic;
 }
 
 .quote-top::before,
@@ -47,7 +50,11 @@ body {
 }
 
 .day .line {
-  height: 14px;
+  height: 22px;
 
   border-bottom: 1px dotted rgb(78, 78, 78);
+}
+
+.day .line:last-child {
+  border: none;
 }
