@@ -4,23 +4,23 @@
     "quotes": ["Blablabla","albalbalB"],
     "days": [
       {
-        "name": "Monday 23 December",
+        "name": "Monday 25 August",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 26 August",
+        "info": "School Begins"
+      },
+      {
+        "name": "Wednesday 27 August",
         "info": null
       },
       {
-        "name": "Tuesday 24 December",
+        "name": "Thursday 28 August",
         "info": null
       },
       {
-        "name": "Wednesday 25 December",
-        "info": null
-      },
-      {
-        "name": "Thursday 26 December",
-        "info": null
-      },
-      {
-        "name": "Friday 27 December",
+        "name": "Friday 29 August",
         "info": null
       }
     ]
