@@ -24,11 +24,23 @@ var days = Handlebars.compile(fs.readFileSync("./templates/days.hbs").toString()
 var notes = Handlebars.compile(fs.readFileSync("./templates/notes.hbs").toString());
 
 weeks.forEach(function(week) {
+  var weekDays = week.days;
+  week.days = week.days.slice(0, 3);
+  var week2 = {
+    days: weekDays.slice(3, 5)
+  }
   results.push({
     days: days(week),
-    notes: notes() // Yeah, it is static, but it could be customized...
+    notes: notes(week2)
   });
 });
+
+var outputs = [];
+
+results.forEach(function(result) {
+  outputs.push(result.days);
+  outputs.push(result.notes);
+})
 
 console.log("Loaded CSS files:");
 
@@ -40,28 +52,17 @@ fs.readdirSync("./css").forEach(function(file) {
 console.log("");
 console.log("Writing template files...\n");
 
-results.forEach(function(result, i) {
-  fs.writeFileSync("./output/" + i + ".html", result.days);
+outputs.forEach(function(result, i) {
+  fs.writeFileSync("./output/" + i + ".html", result);
 });
-
-fs.writeFileSync("./output/notes.html", results[0].notes); // just one
 
 console.log("Rendering PDFs with PhantomJS...");
 
-for (var i = 0; i < results.length; i++) {
+for (var i = 0; i < outputs.length; i++) {
   exec("phantomjs makepdfs.js " + i, function(err, stdout, stderr) {
     if (err) {
       console.log("uh oh", err);
       console.log(chalk.red("You may need PhantomJS in your PATH"));
     }
-    else {
-      //console.log(stdout);
-    }
   });
 }
-
-exec("phantomjs makepdfs.js notes", function(err, stdout, stderr) {
-  if (err) {
-    console.log("uh oh", err);
-  }
-});

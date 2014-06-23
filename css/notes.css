@@ -16,3 +16,22 @@ body {
   height: 22px;
   border-bottom: dotted 1px rgb(72, 72, 72);
 }
+
+.day {
+  border-top: 2px solid #000;
+
+}
+
+.day .name {
+  font-family: arial, sans-serif;
+}
+
+.day .line {
+  height: 22px;
+
+  border-bottom: 1px dotted rgb(78, 78, 78);
+}
+
+.day .line:last-child {
+  border: none;
+}

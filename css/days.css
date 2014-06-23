@@ -30,13 +30,13 @@ body {
   font-style: italic;
 }
 
-.quote-top::before,
-.quote-bottom::before {
+.quote-top .text::before,
+.quote-bottom .text::before {
   content: "“"
 }
 
-.quote-top::after,
-.quote-bottom:after {
+.quote-top .text::after,
+.quote-bottom .text::after {
   content: "“"
 }
 

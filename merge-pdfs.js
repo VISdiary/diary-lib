@@ -29,7 +29,7 @@ fs.readdirSync("./output/pdf")
 });
 
 var command = "pdftk "
-+ pdfs.join(" ./output/pdf/notes.pdf ") + " ./output/pdf/notes.pdf"
++ pdfs.join(" ")
 + " cat output output/diary.pdf";
 
 

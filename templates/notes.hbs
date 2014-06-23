@@ -8,8 +8,20 @@
 
   <body>
     <div class="content">
+      <div class="week">
+        {{#each days}}
+          <div class="day">
+            <div class="name">{{name}}</div>
+            <div class="info">{{info}}</div>
+
+            {{#times 8}}
+              <div class="line"></div>
+            {{/times}}
+          </div>
+        {{/each}}
+      </div>
       <div class="heading">Notes for fun drawings</div>
-      {{#times 28}}
+      {{#times 10}}
         <div class="line"></div>
       {{/times}}
       <!-- Signatures ? -->

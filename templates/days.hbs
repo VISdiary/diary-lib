@@ -9,7 +9,10 @@
   <body>
     <div class="content">
       <div class="header">
-        <div class="quote-top">{{quotes.[0]}}</div>
+        <div class="quote-top">
+          <span class="text">{{quotes.[0].text}}</span>
+          <span class="author"> - {{quotes.[0].author}}</span>
+        </div>
         <div class="type">Week {{type}}</div>
       </div>
       <div class="week">
@@ -18,15 +21,16 @@
             <div class="name">{{name}}</div>
             <div class="info">{{info}}</div>
 
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
+            {{#times 8}}
+              <div class="line"></div>
+            {{/times}}
           </div>
         {{/each}}
       </div>
-      <div class="quote-bottom">{{quotes.[1]}}</div>
+      <div class="quote-bottom">
+        <span class="text">{{quotes.[1].text}}</span>
+        <span class="author">- {{quotes.[1].author}}</span>
+      </div>
     </div>
   </body>
 

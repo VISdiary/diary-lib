@@ -1,7 +1,16 @@
 [
   {
     "type": "A",
-    "quotes": ["Blablabla","albalbalB"],
+    "quotes": [
+      {
+        "text": "ahahahshs",
+        "author": "You"
+      },
+      {
+        "text": "ahahahshs",
+        "author": "You"
+      }
+    ],
     "days": [
       {
         "name": "Monday 23 December",
@@ -42,11 +51,11 @@
         "info": null
       },
       {
-        "name": "Thursday 26 December",
+        "name": "asassaThursday 26 December",
         "info": null
       },
       {
-        "name": "Friday 27 December",
+        "name": "dasdadasFriday 27 December",
         "info": null
       }
     ]
