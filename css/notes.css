@@ -1,6 +1,6 @@
 body {
   margin: 0.5cm;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .content {
@@ -10,6 +10,7 @@ body {
 .heading {
   font-family: arial, sans-serif;
   font-style: italic;
+  font-size: 18px;
 }
 
 .line {
@@ -34,4 +35,15 @@ body {
 
 .day .line:last-child {
   border: none;
+}
+
+.name,
+.info {
+  float: left;
+}
+
+.info {
+  margin-left: 4px;
+  font-family: "Arial", sans-serif;
+  color: rgb(89, 89, 89);
 }
