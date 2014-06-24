@@ -1,16 +1,16 @@
 body {
   margin: 0.5cm;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .content {
-  padding-top: 38px;
+  padding-top: 58px;
 }
 
 .heading {
   font-family: arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 26px;
 }
 
 .quote-top {
@@ -44,13 +44,12 @@ body {
 }
 
 .line {
-  height: 22px;
-  border-bottom: dotted 1px rgb(72, 72, 72);
+  height: 31px;
+  border-bottom: dotted 2px rgb(72, 72, 72);
 }
 
 .day {
-  border-top: 2px solid #000;
-
+  border-top: 4px solid #000;
 }
 
 .day .name {
@@ -58,9 +57,9 @@ body {
 }
 
 .day .line {
-  height: 22px;
+  height: 31px;
 
-  border-bottom: 1px dotted rgb(78, 78, 78);
+  border-bottom: 2px dotted rgb(78, 78, 78);
 }
 
 .day .line:last-child,
