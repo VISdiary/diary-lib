@@ -14,17 +14,23 @@
             <div class="name">{{name}}</div>
             <div class="info">{{info}}</div>
 
-            {{#times 8}}
+            {{#times 9}}
               <div class="line"></div>
             {{/times}}
           </div>
         {{/each}}
       </div>
-      <div class="heading">Notes</div>
-      {{#times 10}}
-        <div class="line"></div>
-      {{/times}}
+      <div class="notes">
+        <div class="heading">Notes</div>
+        {{#times 8}}
+          <div class="line"></div>
+        {{/times}}
+      </div>
       <!-- Signatures ? -->
+      <div class="quote-bottom">
+        <span class="text">{{quotes.[1].text}}</span>
+        <span class="author">- {{quotes.[1].author}}</span>
+      </div>
     </div>
   </body>
 

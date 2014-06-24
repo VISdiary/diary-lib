@@ -4,13 +4,43 @@ body {
 }
 
 .content {
-  padding-top: 20px;
+  padding-top: 38px;
 }
 
 .heading {
   font-family: arial, sans-serif;
   font-style: italic;
   font-size: 18px;
+}
+
+.quote-top {
+  float: left;
+  /*text-align: center;*/
+
+  font-family: arial, sans-serif;
+  font-style: italic;
+}
+
+.quote-bottom {
+  margin: 4px auto 0 auto;
+  text-align: center;
+
+  font-family: arial, sans-serif;
+  font-style: italic;
+}
+
+.quote-top .text::before,
+.quote-bottom .text::before {
+  content: "“"
+}
+
+.quote-top .text::after,
+.quote-bottom .text::after {
+  content: "”"
+}
+
+.author {
+  color: rgb(87, 87, 87);
 }
 
 .line {
@@ -33,7 +63,8 @@ body {
   border-bottom: 1px dotted rgb(78, 78, 78);
 }
 
-.day .line:last-child {
+.day .line:last-child,
+.content .line:last-child {
   border: none;
 }
 
@@ -46,4 +77,8 @@ body {
   margin-left: 4px;
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
+}
+
+.notes {
+  padding-top: 4px;
 }

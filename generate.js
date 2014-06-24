@@ -27,7 +27,8 @@ weeks.forEach(function(week) {
   var weekDays = week.days;
   week.days = week.days.slice(0, 3);
   var week2 = {
-    days: weekDays.slice(3, 5)
+    days: weekDays.slice(3, 5),
+    quotes: week.quotes
   }
   results.push({
     days: days(week),

@@ -3,8 +3,12 @@ body {
   font-size: 14px;
 }
 
+.content {
+  padding-top: 18px;
+}
+
 .header {
-  padding-top: 20px;
+  padding-top: 0px;
   height: 20px;
 }
 
@@ -37,7 +41,11 @@ body {
 
 .quote-top .text::after,
 .quote-bottom .text::after {
-  content: "“"
+  content: "”"
+}
+
+.author {
+  color: rgb(87, 87, 87);
 }
 
 .day {
