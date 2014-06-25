@@ -2,7 +2,7 @@ var system = require("system");
 var page = require('webpage').create();
 
 page.paperSize = {
-  format: "A5",
+  format: "A4",
   orientation: "portrait"
 };
 
