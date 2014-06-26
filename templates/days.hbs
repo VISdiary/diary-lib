@@ -13,7 +13,11 @@
       </div>
       <div class="week">
         {{#each days}}
+        {{#if colouredBackground}}
+          <div class="day shaded">
+        {{else}}
           <div class="day">
+        {{/if}}
             <div class="name">{{name}}</div>
             <div class="info first">{{firstInfo}}</div>
 
