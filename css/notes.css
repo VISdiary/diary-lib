@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-  padding-top: 58px;
+  padding-top: 50px;
 }
 
 .heading {
@@ -58,7 +58,7 @@ body {
 }
 
 .day .line {
-  height: 31px;
+  height: 30px;
 
   border-bottom: 2px dotted rgb(78, 78, 78);
 }

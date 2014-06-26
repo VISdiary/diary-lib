@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-  padding-top: 18px;
+  padding-top: 10px;
 }
 
 .header {
@@ -46,7 +46,6 @@ body {
 }
 
 .author {
-  display: block;
   color: rgb(121, 121, 121);
 }
 
@@ -59,7 +58,7 @@ body {
 }
 
 .day .line {
-  height: 31px;
+  height: 30px;
 
   border-bottom: 2px dotted rgb(78, 78, 78);
 }
@@ -76,6 +75,10 @@ body {
 .info {
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
+}
+
+.info.line {
+  float: none;
 }
 
 .info.first {

@@ -26,18 +26,19 @@ var notes = Handlebars.compile(fs.readFileSync("./templates/notes.hbs").toString
 weeks.forEach(function(week) {
   var weekDays = week.days.map(function(day) {
     if (Array.isArray(day.info)) {
+      console.log(day.info.length);
       return {
         multilineInfo: true,
         name: day.name,
         noninfoLines: 9 - day.info.length,
         firstInfo: day.info[0],
-        info: day.info.slice(1, -1)
+        info: day.info.slice(1, day.info.length)
       };
     }
     else {
       var colouredBackground = false;
     
-      if (day.info === "Public Holiday") {
+      if (day.info === "School Holiday") {
         colouredBackground = true;
       }
 
