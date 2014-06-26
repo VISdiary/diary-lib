@@ -15,11 +15,21 @@
         {{#each days}}
           <div class="day">
             <div class="name">{{name}}</div>
-            <div class="info">{{info}}</div>
+            <div class="info first">{{firstInfo}}</div>
 
-            {{#times 9}}
+            {{#if multilineInfo}}
               <div class="line"></div>
-            {{/times}}
+              {{#each info}}
+                <div class="line info">{{this}}</div>
+              {{/each}}
+              {{#times noninfoLines}}
+                <div class="line"></div>
+              {{/times}}
+            {{else}}
+              {{#times 9}}
+                <div class="line"></div>
+              {{/times}}
+            {{/if}}
           </div>
         {{/each}}
       </div>

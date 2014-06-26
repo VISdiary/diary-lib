@@ -31,6 +31,7 @@ body {
   text-align: center;
   font-family: arial, sans-serif;
   font-size: 22px;
+  line-height: 1.4em;
   font-style: italic;
 }
 
@@ -45,12 +46,12 @@ body {
 }
 
 .author {
-  color: rgb(87, 87, 87);
+  display: block;
+  color: rgb(121, 121, 121);
 }
 
 .day {
   border-top: 4px solid #000;
-
 }
 
 .day .name {
@@ -73,7 +74,10 @@ body {
 }
 
 .info {
-  margin-left: 8px;
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
+}
+
+.info.first {
+  margin-left: 16px;
 }

@@ -41,7 +41,7 @@ body {
 }
 
 .author {
-  color: rgb(87, 87, 87);
+  color: rgb(121, 121, 121);
 }
 
 .line {
@@ -82,3 +82,8 @@ body {
 .notes {
   padding-top: 4px;
 }
+
+.info.first {
+  margin-left: 16px;
+}
+
