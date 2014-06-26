@@ -24,7 +24,33 @@ var days = Handlebars.compile(fs.readFileSync("./templates/days.hbs").toString()
 var notes = Handlebars.compile(fs.readFileSync("./templates/notes.hbs").toString());
 
 weeks.forEach(function(week) {
-  var weekDays = week.days;
+  var weekDays = week.days.map(function(day) {
+    if (Array.isArray(day.info)) {
+      console.log(day.info.length);
+      return {
+        multilineInfo: true,
+        name: day.name,
+        noninfoLines: 9 - day.info.length,
+        firstInfo: day.info[0],
+        info: day.info.slice(1, day.info.length)
+      };
+    }
+    else {
+      var colouredBackground = false;
+    
+      if (day.info === "School Holiday") {
+        colouredBackground = true;
+      }
+
+      return {
+        multilineInfo: false,
+        name: day.name,
+        noninfoLines: 9,
+        colouredBackground: colouredBackground,
+        firstInfo: day.info
+      };
+    }
+  });
   var quotes = week.quotes.map(function(quote) {
     if (Array.isArray(quote.text)) {
       return {
@@ -36,7 +62,7 @@ weeks.forEach(function(week) {
       return quote;
     }
   });
-  week.days = week.days.slice(0, 3);
+  week.days = weekDays.slice(0, 3);
   var week2 = {
     days: weekDays.slice(3, 5),
     quotes: quotes

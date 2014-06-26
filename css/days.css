@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-  padding-top: 18px;
+  padding-top: 10px;
 }
 
 .header {
@@ -31,6 +31,7 @@ body {
   text-align: center;
   font-family: arial, sans-serif;
   font-size: 22px;
+  line-height: 1.4em;
   font-style: italic;
 }
 
@@ -45,12 +46,11 @@ body {
 }
 
 .author {
-  color: rgb(87, 87, 87);
+  color: rgb(121, 121, 121);
 }
 
 .day {
   border-top: 4px solid #000;
-
 }
 
 .day .name {
@@ -58,7 +58,7 @@ body {
 }
 
 .day .line {
-  height: 31px;
+  height: 30px;
 
   border-bottom: 2px dotted rgb(78, 78, 78);
 }
@@ -73,7 +73,14 @@ body {
 }
 
 .info {
-  margin-left: 8px;
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
+}
+
+.info.line {
+  float: none;
+}
+
+.info.first {
+  margin-left: 16px;
 }
