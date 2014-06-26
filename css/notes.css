@@ -74,7 +74,6 @@ body {
 }
 
 .info {
-  margin-left: 4px;
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
 }
@@ -86,4 +85,3 @@ body {
 .info.first {
   margin-left: 16px;
 }
-
