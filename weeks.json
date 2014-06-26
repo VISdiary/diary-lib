@@ -287,7 +287,10 @@
         "author": "Henry A. Kissinger"
       },
       {
-        "text": "The sentence bellow is correct. /n The sentence above is false.",
+        "text": [
+          ["The sentence bellow is correct."],
+          ["The sentence above is false."]
+        ],
         "author": "Unknown"
       }
     ],
@@ -738,7 +741,7 @@
     "type": "A",
     "quotes": [
       {
-        "text": "When life gives you questions, Googles has answers.",
+        "text": "When life gives you questions, Google has answers.",
         "author": "Unknown"
       },
       {
@@ -765,7 +768,7 @@
       },
       {
         "name": "Friday 13 February",
-        "info": "February break begins 14 February - 22 February" 
+        "info": "February break begins 14 February - 22 February"
       }
     ]
   },
