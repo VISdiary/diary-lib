@@ -25,10 +25,21 @@ var notes = Handlebars.compile(fs.readFileSync("./templates/notes.hbs").toString
 
 weeks.forEach(function(week) {
   var weekDays = week.days;
+  var quotes = week.quotes.map(function(quote) {
+    if (Array.isArray(quote.text)) {
+      return {
+        author: quote.author,
+        text: quote.text.join("<br />")
+      };
+    }
+    else {
+      return quote;
+    }
+  });
   week.days = week.days.slice(0, 3);
   var week2 = {
     days: weekDays.slice(3, 5),
-    quotes: week.quotes
+    quotes: quotes
   }
   results.push({
     days: days(week),
