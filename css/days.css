@@ -1,15 +1,15 @@
 body {
-  margin: 0.5cm;
-  font-size: 14px;
+  margin: 1cm;
+  font-size: 24px;
 }
 
 .content {
-  padding-top: 18px;
+  padding-top: 10px;
 }
 
 .header {
   padding-top: 0px;
-  height: 20px;
+  height: 40px;
 }
 
 .type {
@@ -27,10 +27,11 @@ body {
 }
 
 .quote-bottom {
-  margin: 4px auto 0 auto;
+  margin: 8px auto 0 auto;
   text-align: center;
-
   font-family: arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
   font-style: italic;
 }
 
@@ -45,12 +46,11 @@ body {
 }
 
 .author {
-  color: rgb(87, 87, 87);
+  color: rgb(121, 121, 121);
 }
 
 .day {
-  border-top: 2px solid #000;
-
+  border-top: 4px solid #000;
 }
 
 .day .name {
@@ -58,9 +58,9 @@ body {
 }
 
 .day .line {
-  height: 22px;
+  height: 30px;
 
-  border-bottom: 1px dotted rgb(78, 78, 78);
+  border-bottom: 2px dotted rgb(78, 78, 78);
 }
 
 .day .line:last-child {
@@ -73,7 +73,15 @@ body {
 }
 
 .info {
-  margin-left: 4px;
   font-family: "Arial", sans-serif;
   color: rgb(89, 89, 89);
+}
+
+.info.line {
+  margin-left: 0px;
+  float: none;
+}
+
+.info.first {
+  margin-left: 16px;
 }
