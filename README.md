@@ -9,6 +9,11 @@ The diary madness
 * [PhantomJS](http://phantomjs.org/)
 * [PDFTk ("server")](http://www.pdflabs.com/tools/pdftk-server/)
 
+To generate PDF:
+```Bash
+$ ./generate.sh
+```
+
 To just start the static file server:
 
 ```Bash
