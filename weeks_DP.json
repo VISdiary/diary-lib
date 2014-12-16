@@ -43,7 +43,7 @@
       },
       {
         "text": "If you want to change the world, start with yourself.",
-        "author": "Mohandas Gandhi"
+        "author": "Mahatma Gandhi"
       }
     ],
     "days": [
@@ -109,7 +109,7 @@
     "quotes": [
       {
         "text": "Those who know don't tell and those who tell don't know.",
-        "author": "Micheal Lewis"
+        "author": "Michael Lewis"
       },
       {
         "text": "The most wasted of all days is one without laughter.",
@@ -287,7 +287,10 @@
         "author": "Henry A. Kissinger"
       },
       {
-        "text": "The sentence bellow is correct. /n The sentence above is false.",
+        "text": [
+          ["The sentence bellow is correct."],
+          ["The sentence above is false."]
+        ],
         "author": "Unknown"
       }
     ],
@@ -310,7 +313,7 @@
       },
       {
         "name": "Friday 24 October",
-        "info": "Autumn break begins 25 October - 2 November"
+        "info": ["", "Autumn break begins 25 October - 2 November"]
       }
     ]
   },
@@ -555,7 +558,7 @@
       },
       {
         "name": "Friday 19 December",
-        "info": "Winter break begins 20 Decembre - 7 January"
+        "info": ["", "Winter break begins 20 December - 7 January"]
       }
     ]
   },
@@ -656,7 +659,7 @@
       },
       {
         "name": "Thursday 22 January",
-        "info": "MYP Action 1st semester deadline"
+        "info": ["", "MYP Action 1st semester deadline"]
       },
       {
         "name": "Friday 23 January",
@@ -738,7 +741,7 @@
     "type": "A",
     "quotes": [
       {
-        "text": "When life gives you questions, Googles has answers.",
+        "text": "When life gives you questions, Google has answers.",
         "author": "Unknown"
       },
       {
@@ -765,7 +768,7 @@
       },
       {
         "name": "Friday 13 February",
-        "info": "February break begins 14 February - 22 February" 
+        "info": ["", "February break begins 14 February - 22 February"]
       }
     ]
   },
@@ -774,7 +777,7 @@
     "quotes": [
       {
         "text": "An investment in knowledge pays the best interest.",
-        "author": "Benjamin Fralklin"
+        "author": "Benjamin Franklin"
       },
       {
         "text": "If you never start, you never finish.",
@@ -940,7 +943,7 @@
       },
       {
         "name": "Friday 27 March",
-        "info": "Spring break begins 28 March - 7 April"
+        "info": ["", "Spring break begins 28 March - 7 April"]
       }
     ]
   },
@@ -988,7 +991,7 @@
       },
       {
         "text": "Where there is love, there is life",
-        "author": "Mahatma Gandi"
+        "author": "Mahatma Gandhi"
       }
     ],
     "days": [
@@ -1299,7 +1302,7 @@
     "quotes": [
       {
         "text": "First they ignore you, then they laugh at you, then they fight you, then you win.",
-        "author": "Mahatma Gandi"
+        "author": "Mahatma Gandhi"
       },
       {
         "text": "Life is 10 percent what you make it, and 90 percent how you take it",
