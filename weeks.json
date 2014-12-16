@@ -18,7 +18,7 @@
       },
       {
         "name": "Tuesday 26 August",
-        "info": "School Begins"
+        "info": ["School Begins", "Early UCAS Personal Statement 1st draft due", "Complete Student Self Assessment form"]
       },
       {
         "name": "Wednesday 27 August",
@@ -65,7 +65,7 @@
       },
       {
         "name": "Friday 5 September",
-        "info": null
+        "info": "Early UCAS applications due"
       }
     ]
   },
@@ -158,7 +158,7 @@
       },
       {
         "name": "Tuesday 23 September",
-        "info": null
+        "info": ["", "Regular UCAS Personal Statement 1st draft due","Complete Student Self Assessment form"]
       },
       {
         "name": "Wednesday 24 September",
@@ -205,7 +205,7 @@
       },
       {
         "name": "Friday 3 October",
-        "info": null
+        "info": ["", "US Early Decision/Early Action applications due"]
       }
     ]
   },
@@ -275,7 +275,7 @@
       },
       {
         "name": "Friday 17 October",
-        "info": null
+        "info": "Regular UCAS applications due"
       }
     ]
   },
@@ -383,7 +383,7 @@
       },
       {
         "name": "Friday 14 November",
-        "info": null
+        "info": ["", "US/Canada applications due"]
       }
     ]
   },
@@ -437,7 +437,7 @@
     "days": [
       {
         "name": "Monday 24 November",
-        "info": null
+        "info": ["", "UK Art/Design Foundation Courses applications due"]
       },
       {
         "name": "Tuesday 25 November",
@@ -659,7 +659,7 @@
       },
       {
         "name": "Thursday 22 January",
-        "info": ["", "MYP Action 1st semester deadline"]
+        "info": null
       },
       {
         "name": "Friday 23 January",
@@ -1246,7 +1246,7 @@
       },
       {
         "name": "Tuesday 2 June",
-        "info": "MYP Action 2nd semester deadline"
+        "info": null
       },
       {
         "name": "Wednesday 3 June",
