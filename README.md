@@ -1,7 +1,7 @@
-diary
+diary-lib
 =====
 
-The Diary
+The diary madness
 
 ## Dependencies
 
