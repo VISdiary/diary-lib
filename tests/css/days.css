@@ -1,0 +1,86 @@
+body {
+  margin: 1cm;
+  font-size: 24px;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+.header {
+  padding-top: 0px;
+  height: 40px;
+}
+
+.type {
+  float: right;
+
+  font-family: arial, sans-serif;
+}
+
+.quote-top {
+  float: left;
+  /*text-align: center;*/
+
+  font-family: arial, sans-serif;
+  font-style: italic;
+}
+
+.quote-bottom {
+  margin: 8px auto 0 auto;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.4em;
+  font-style: italic;
+}
+
+.quote-top .text::before,
+.quote-bottom .text::before {
+  content: "“"
+}
+
+.quote-top .text::after,
+.quote-bottom .text::after {
+  content: "”"
+}
+
+.author {
+  color: rgb(121, 121, 121);
+}
+
+.day {
+  border-top: 4px solid #000;
+}
+
+.day .name {
+  font-family: arial, sans-serif;
+}
+
+.day .line {
+  height: 30px;
+
+  border-bottom: 2px dotted rgb(78, 78, 78);
+}
+
+.day .line:last-child {
+  border: none;
+}
+
+.name,
+.info {
+  float: left;
+}
+
+.info {
+  font-family: "Arial", sans-serif;
+  color: rgb(89, 89, 89);
+}
+
+.info.line {
+  float: none;
+}
+
+.info.first {
+  margin-left: 16px;
+}

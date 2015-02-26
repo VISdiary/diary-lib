@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/notes.css">
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="week">
+        {{#each days}}
+          <div class="day">
+            <div class="name">{{name}}</div>
+            <div class="info">{{info}}</div>
+
+            {{#times 9}}
+              <div class="line"></div>
+            {{/times}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="notes">
+        <div class="heading">Notes</div>
+        {{#times 8}}
+          <div class="line"></div>
+        {{/times}}
+      </div>
+      <!-- Signatures ? -->
+      <div class="quote-bottom">
+        <span class="text">{{{quotes.[1].text}}}</span>
+        <span class="author">- {{quotes.[1].author}}</span>
+      </div>
+    </div>
+  </body>
+
+</html>

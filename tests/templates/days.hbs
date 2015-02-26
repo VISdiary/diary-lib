@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <link rel="stylesheet" href="css/days.css">
+  </head>
+
+  <body>
+    <div class="content">
+      <div class="header">
+        <div class="type">Week {{type}}</div>
+      </div>
+      <div class="week">
+        {{#each days}}
+        {{#if colouredBackground}}
+          <div class="day shaded">
+        {{else}}
+          <div class="day">
+        {{/if}}
+            <div class="name">{{name}}</div>
+            <div class="info first">{{firstInfo}}</div>
+
+            {{#if multilineInfo}}
+              <div class="line"></div>
+              {{#each info}}
+                <div class="line info">{{this}}</div>
+              {{/each}}
+              {{#times noninfoLines}}
+                <div class="line"></div>
+              {{/times}}
+            {{else}}
+              {{#times 9}}
+                <div class="line"></div>
+              {{/times}}
+            {{/if}}
+          </div>
+        {{/each}}
+      </div>
+      <div class="quote-bottom">
+        <span class="text">{{{quotes.[0].text}}}</span>
+        <span class="author">- {{quotes.[0].author}}</span>
+      </div>
+    </div>
+  </body>
+
+</html>

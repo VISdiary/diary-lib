@@ -1,0 +1,89 @@
+body {
+  margin: 1cm;
+  font-size: 24px;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.heading {
+  font-family: arial, sans-serif;
+  font-style: italic;
+  font-size: 26px;
+}
+
+.quote-top {
+  float: left;
+  /*text-align: center;*/
+
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.quote-bottom {
+  margin: 4px auto 0 auto;
+  text-align: center;
+  font-family: arial, sans-serif;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.quote-top .text::before,
+.quote-bottom .text::before {
+  content: "“"
+}
+
+.quote-top .text::after,
+.quote-bottom .text::after {
+  content: "”"
+}
+
+.author {
+  color: rgb(121, 121, 121);
+}
+
+.line {
+  height: 31px;
+  border-bottom: dotted 2px rgb(72, 72, 72);
+}
+
+.day {
+  border-top: 4px solid #000;
+}
+
+.day .name {
+  font-family: arial, sans-serif;
+}
+
+.day .line {
+  height: 30px;
+
+  border-bottom: 2px dotted rgb(78, 78, 78);
+}
+
+.day .line:last-child,
+.content .line:last-child {
+  border: none;
+}
+
+.name,
+.info {
+  float: left;
+}
+
+.info {
+  margin-left: 4px;
+  font-family: "Arial", sans-serif;
+  color: rgb(89, 89, 89);
+}
+
+.notes {
+  padding-top: 4px;
+}
+
+.info.first {
+  margin-left: 16px;
+}
+

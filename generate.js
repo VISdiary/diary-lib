@@ -1,4 +1,3 @@
-// Uhm...
 var fs = require("fs");
 var exec = require("child_process").exec;
 var Handlebars = require("handlebars");
@@ -12,7 +11,6 @@ Handlebars.registerHelper('times', function(n, block) {
     return res;
 });
 
-console.log(chalk.green("Hello, you there"), chalk.magenta(":)"));
 console.log(chalk.cyan("Let's make a diary! \n"));
 
 var weeks = require("./weeks.json");
