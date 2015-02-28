@@ -7,15 +7,38 @@ The diary madness
 
 * Node.js
 * [PhantomJS](http://phantomjs.org/)
-* [PDFTk ("server")](http://www.pdflabs.com/tools/pdftk-server/)
+* Ghostscript
 
-To generate PDF:
-```Bash
-$ ./generate.sh
-```
+## Usage
 
-To just start the static file server:
+```javascript
+var diary = require("diary-lib")
+var fs = require("fs")
 
-```Bash
-$ ./node_modules/.bin/http-server output -p 7472
+var weeks = require("./weeks.json")
+
+var templates = {
+  "days": fs.readFileSync("./templates/days.hbs").toString(),
+  "notes": fs.readFileSync("./templates/notes.hbs").toString()
+}
+
+var css = {
+  "days": fs.readFileSync("./css/days.css").toString(),
+  "notes": fs.readFileSync("./css/notes.css").toString()
+}
+
+diary.generate({
+  weeks: weeks,
+  templates: templates,
+  css: css
+}, function(err, result) {
+  if (err) {
+    console.log("error", err)
+    process.exit(1)
+  }
+
+  fs.createReadStream(result).pipe(fs.createWriteStream("./result.pdf"))
+})
+
+
 ```
