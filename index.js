@@ -19,7 +19,6 @@ function renderHtml(html, cb) {
   var inputFile = "/tmp/diary-" + crypto.randomBytes(8).toString("hex") + ".html"
   var outputFile = "/tmp/diary-" + crypto.randomBytes(8).toString("hex") + ".pdf"
 
-  console.log("phantomjs " + __dirname + "/gen-pdf.js " + inputFile + " " + outputFile)
   fs.writeFile(inputFile, html, function(err) {
     if (err)
       return cb(err, null)
@@ -62,7 +61,6 @@ function generate(input, cb) {
   weeks.forEach(function(week) {
     var weekDays = week.days.map(function(day) {
       if (Array.isArray(day.info)) {
-        console.log(day.info.length);
         return {
           multilineInfo: true,
           name: day.name,
@@ -121,17 +119,13 @@ function generate(input, cb) {
   pages.forEach(function(page, i) {
     renderHtml(page, function(err, res) {
       if (err) {
-        console.log(page)
-        console.log("pdf.create error", err)
         cb(err, null)
       }
       files.push(res)
 
       if (files.length === pages.length) {
-        console.log(files.join(" "))
         var diaryPdf = "/tmp/" + crypto.randomBytes(8).toString("hex") + ".pdf"
         exec("gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=" + diaryPdf + " -dBATCH " + files.join(" "), function(err, stdout, stderr) {
-          console.log(stdout)
           if (err) {
             cb(err, null)
             console.log("error", err)
