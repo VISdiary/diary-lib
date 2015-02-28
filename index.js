@@ -1,8 +1,11 @@
 var fs = require("fs");
+var crypto = require("crypto");
 var exec = require("child_process").exec;
 var chalk = require("chalk");
 var Handlebars = require("handlebars");
 var cheerio = require("cheerio")
+var pdf = require("html-pdf")
+var NodePdf = require("nodepdf")
 
 // so, this isn't built in...
 Handlebars.registerHelper('times', function(n, block) {
@@ -12,16 +15,36 @@ Handlebars.registerHelper('times', function(n, block) {
     return res;
 });
 
+function renderHtml(html, cb) {
+  var inputFile = "/tmp/diary-" + crypto.randomBytes(8).toString("hex") + ".html"
+  var outputFile = "/tmp/diary-" + crypto.randomBytes(8).toString("hex") + ".pdf"
+
+  console.log("phantomjs " + __dirname + "/gen-pdf.js " + inputFile + " " + outputFile)
+  fs.writeFile(inputFile, html, function(err) {
+    if (err)
+      return cb(err, null)
+
+    exec("phantomjs " + __dirname + "/gen-pdf.js " + inputFile + " " + outputFile, function(err, stdout, stderr) {
+      if (err) {
+        cb(err, null)
+      }
+      else {
+        cb(null, outputFile)
+      }
+    })
+  })
+}
+
 function addCss(html, css) {
   var $ = cheerio.load(html);
 
-  var stylesheet = $("<style>").html(css)
+  var stylesheet = $("<style>").html("\n" + css + "\n")
   $("head").append(stylesheet)
 
   return $.html()
 }
 
-function generate(input) {
+function generate(input, cb) {
   // results = rendered HTML files
   var results = [];
 
@@ -29,6 +52,7 @@ function generate(input) {
   var templates = input.templates;
   var stylesheets = input.css;
 
+  // add the right stylesheets to each HTML file 
   var daysHtml = addCss(templates["days"], stylesheets["days"]);
   var notesHtml = addCss(templates["notes"], stylesheets["notes"]);
 
@@ -93,29 +117,30 @@ function generate(input) {
     pages.push(result.notes);
   })
 
-  fs.readdirSync("./css").forEach(function(file) {
-    console.log(file);
-    fs.writeFileSync("./output/css/" + file, fs.readFileSync("./css/" + file).toString());
-  })
-
-  console.log("");
-  console.log("Writing template files...\n");
-
-  pages.forEach(function(result, i) {
-    fs.writeFileSync("./output/" + i + ".html", result);
-  });
-
-  console.log("Rendering PDFs with PhantomJS...");
-
-  for (var i = 0; i < pages.length; i++) {
-    exec("phantomjs makepdfs.js " + i, function(err, stdout, stderr) {
+  var files = []
+  pages.forEach(function(page, i) {
+    renderHtml(page, function(err, res) {
       if (err) {
-        console.log("uh oh", err);
-        console.log(chalk.red("You may need PhantomJS in your PATH"));
+        console.log(page)
+        console.log("pdf.create error", err)
+        cb(err, null)
       }
-    });
-  }
+      files.push(res)
 
+      if (files.length === pages.length) {
+        console.log(files.join(" "))
+        var diaryPdf = "/tmp/" + crypto.randomBytes(8).toString("hex") + ".pdf"
+        exec("gs -dNOPAUSE -sDEVICE=pdfwrite -sOUTPUTFILE=" + diaryPdf + " -dBATCH " + files.join(" "), function(err, stdout, stderr) {
+          console.log(stdout)
+          if (err) {
+            cb(err, null)
+            console.log("error", err)
+          }
+          cb(null, diaryPdf)
+        })
+      }
+    })
+  });
 }
 
 

@@ -37,12 +37,12 @@ body {
 
 .quote-top .text::before,
 .quote-bottom .text::before {
-  content: "“"
+  content: "“";
 }
 
 .quote-top .text::after,
 .quote-bottom .text::after {
-  content: "”"
+  content: "”";
 }
 
 .author {

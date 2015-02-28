@@ -1,40 +1,5 @@
 [
   {
-    "type": "A",
-    "quotes": [
-      {
-        "text": "Big Brother is Watching You.",
-        "author": "George Orwell"
-      },
-      {
-        "text": "Be yourself; everyone else is already taken.",
-        "author": "Oscar Wilde"
-      }
-    ],
-    "days": [
-      {
-        "name": "Monday 25 August",
-        "info": "School Holiday"
-      },
-      {
-        "name": "Tuesday 26 August",
-        "info": "School Begins"
-      },
-      {
-        "name": "Wednesday 27 August",
-        "info": null
-      },
-      {
-        "name": "Thursday 28 August",
-        "info": null
-      },
-      {
-        "name": "Friday 29 August",
-        "info": null
-      }
-    ]
-  },
-  {
     "type": "B",
     "quotes": [
       {

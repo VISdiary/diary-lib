@@ -6,7 +6,8 @@ page.paperSize = {
   orientation: "portrait"
 };
 
-page.open('http://localhost:7472/' + system.args[1] + ".html", function() {
-  page.render("output/pdf/" + system.args[1] + ".pdf");
+page.open('test.html', function() {
+  page.render("pdf.pdf");
   phantom.exit();
 });
+

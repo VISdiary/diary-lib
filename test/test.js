@@ -14,5 +14,9 @@ var css = {
 }
 
 lib.generate({weeks: weeks, templates: templates, css: css}, function(err, result) {
-  fs.writeFile("./result.pdf", result)
+  if (err) {
+    console.log("error", err)
+    process.exit(1)
+  }
+  fs.createReadStream(result).pipe(fs.createWriteStream("./result.pdf"))
 })
