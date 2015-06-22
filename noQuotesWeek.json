@@ -1,0 +1,1332 @@
+[
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 24 August",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 25 August",
+        "info": null
+      },
+      {
+        "name": "Wednesday 26 August",
+        "info": null
+      },
+      {
+        "name": "Thursday 27 August",
+        "info": null
+      },
+      {
+        "name": "Friday 28 August",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 31 August",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 September",
+        "info": null
+      },
+      {
+        "name": "Friday 4 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "Activity Week",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 9 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 10 September",
+        "info": null
+      },
+      {
+        "name": "Friday 11 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 September",
+        "info": null
+      },
+      {
+        "name": "Friday 18 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 21 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 22 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 23 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 24 September",
+        "info": null
+      },
+      {
+        "name": "Friday 25 September",
+        "info": "School Holiday"
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 28 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 29 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 30 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 1 October",
+        "info": null
+      },
+      {
+        "name": "Friday 2 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 5 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 6 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 7 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 8 October",
+        "info": null
+      },
+      {
+        "name": "Friday 9 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 12 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 13 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 14 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 15 October",
+        "info": null
+      },
+      {
+        "name": "Friday 16 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 19 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 20 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 21 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 22 October",
+        "info": null
+      },
+      {
+        "name": "Friday 23 October",
+        "info": ["", "Autumn break begins 24 October - 2 November"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 2 November",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 3 November",
+        "info": "School resumes"
+      },
+      {
+        "name": "Wednesday 4 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 5 November",
+        "info": null
+      },
+      {
+        "name": "Friday 6 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 9 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 10 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 11 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 12 November",
+        "info": null
+      },
+      {
+        "name": "Friday 13 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 16 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 17 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 18 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 19 November",
+        "info": null
+      },
+      {
+        "name": "Friday 20 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 23 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 24 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 25 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 26 November",
+        "info": null
+      },
+      {
+        "name": "Friday 27 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 30 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 December",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 December",
+        "info": null
+      },
+      {
+        "name": "Friday 4 December",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 December",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 December",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Wednesday 9 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 10 December",
+        "info": null
+      },
+      {
+        "name": "Friday 11 December",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 December",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 December",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 December",
+        "info": null
+      },
+      {
+        "name": "Friday 18 December",
+        "info": ["", "Winter break begins 19 December - 10 January"]
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 11 January",
+        "info": "School resumes"
+      },
+      {
+        "name": "Tuesday 12 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 13 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 14 January",
+        "info": null
+      },
+      {
+        "name": "Friday 15 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 18 January",
+        "info": null
+      },
+      {
+        "name": "Tuesday 19 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 20 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 21 January",
+        "info": null
+      },
+      {
+        "name": "Friday 22 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 25 January",
+        "info": null
+      },
+      {
+        "name": "Tuesday 26 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 27 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 28 January",
+        "info": null
+      },
+      {
+        "name": "Friday 29 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 1 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 2 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 3 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 4 February",
+        "info": null
+      },
+      {
+        "name": "Friday 5 February",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 8 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 9 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 10 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 11 February",
+        "info": null
+      },
+      {
+        "name": "Friday 12 February",
+        "info": ["", "February break begins 13 February - 21 February"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 22 February",
+        "info": "School resumes"
+      },
+      {
+        "name": "Tuesday 23 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 24 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 25 February",
+        "info": null
+      },
+      {
+        "name": "Friday 26 February",
+        "info": 
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 29 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 March",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 March",
+        "info": null
+      },
+      {
+        "name": "Friday 4 March",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 March",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 9 March",
+        "info": null
+      },
+      {
+        "name": "Thursday 10 March",
+        "info": null
+      },
+      {
+        "name": "Friday 11 March",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 March",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 March",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 March",
+        "info": null
+      },
+      {
+        "name": "Friday 18 March",
+        "info": ["", "Spring break begins 19 March - 29 March"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 28 March",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 29 March",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Wednesday 30 March",
+        "info": "School resumes"
+      },
+      {
+        "name": "Thursday 31 March",
+        "info": null
+      },
+      {
+        "name": "Friday 1 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 4 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 5 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 6 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 7 April",
+        "info": null
+      },
+      {
+        "name": "Friday 8 April",
+        "info": 
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 11 April",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Tuesday 12 April",
+        "info": "School Closed"
+      },
+      {
+        "name": "Wednesday 13 April",
+        "info": "School resumes"
+      },
+      {
+        "name": "Thursday 14 April",
+        "info": null
+      },
+      {
+        "name": "Friday 15 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 18 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 19 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 20 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 21 April",
+        "info": null
+      },
+      {
+        "name": "Friday 22 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 25 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 26 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 27 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 28 April",
+        "info": null
+      },
+      {
+        "name": "Friday 29 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 2 May",
+        "info": null
+      },
+      {
+        "name": "Tuesday 3 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 4 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 5 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Friday 6 May",
+        "info": "Public Holiday"
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 9 May",
+        "info": null
+      },
+      {
+        "name": "Tuesday 10 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 11 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 12 May",
+        "info": null
+      },
+      {
+        "name": "Friday 13 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 16 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Tuesday 17 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Wednesday 18 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 19 May",
+        "info": null
+      },
+      {
+        "name": "Friday 20 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 23 May",
+        "info": null
+      },
+      {
+        "name": "Tuesday 24 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 25 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 26 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Friday 27 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 30 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 31 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 1 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 2 June",
+        "info": null
+      },
+      {
+        "name": "Friday 3 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 6 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 7 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 8 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 9 June",
+        "info": null
+      },
+      {
+        "name": "Friday 10 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 13 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 14 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 15 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 16 June",
+        "info": null
+      },
+      {
+        "name": "Friday 17 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "",
+        "author": ""
+      },
+      {
+        "text": "",
+        "author": ""
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 20 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 21 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 22 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 23 June",
+        "info": null
+      },
+      {
+        "name": "Friday 24 June",
+        "info": "Last day of school"
+      }
+    ]
+  }
+]
