@@ -3,9 +3,7 @@ var crypto = require("crypto");
 var exec = require("child_process").exec;
 var chalk = require("chalk");
 var Handlebars = require("handlebars");
-var cheerio = require("cheerio")
-var pdf = require("html-pdf")
-var NodePdf = require("nodepdf")
+var cheerio = require("cheerio");
 
 // so, this isn't built in...
 Handlebars.registerHelper('times', function(n, block) {
