@@ -1,0 +1,1332 @@
+[
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Sorry to interrupt you guys, do you mind if I start with my lesson?",
+        "author": "Ms. Pagura"
+      },
+      {
+        "text": "Pas de panique! (no panic)",
+        "author": "Mr. Oudart"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 24 August",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 25 August",
+        "info": null
+      },
+      {
+        "name": "Wednesday 26 August",
+        "info": null
+      },
+      {
+        "name": "Thursday 27 August",
+        "info": null
+      },
+      {
+        "name": "Friday 28 August",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Everything has beauty, but not everyone sees it",
+        "author": "Confucius"
+      },
+      {
+        "text": "The shortest way to do many things is to do only one thing at a time.",
+        "author": "Richard Cech"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 31 August",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 September",
+        "info": null
+      },
+      {
+        "name": "Friday 4 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "Activity Week",
+    "quotes": [
+      {
+        "text": "War is what happens when language fails.",
+        "author": "Margaret Atwood"
+      },
+      {
+        "text": "It's never wrong to do the right thing",
+        "author": "Mr. Sean"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 9 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 10 September",
+        "info": null
+      },
+      {
+        "name": "Friday 11 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "If all else fails, read the directions!",
+        "author": "Ms. Bottoms"
+      },
+      {
+        "text": "Try to learn something about everything and everything about something",
+        "author": "Thomas Henry Huxley"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 September",
+        "info": null
+      },
+      {
+        "name": "Friday 18 September",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "If you only read the books that everyone else is reading, you can only think what everyone else is thinking.",
+        "author": "Haruki Murakami"
+      },
+      {
+        "text": "Stop letting people who do so little for you control so much of your mind, feelings & emotions.",
+        "author": "Mr. Wegkamp"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 21 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 22 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 23 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 24 September",
+        "info": null
+      },
+      {
+        "name": "Friday 25 September",
+        "info": "School Holiday"
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "You can catch more flies with honey than with vinegar.",
+        "author": "Mr. Bancroft"
+      },
+      {
+        "text": "Un problema deja de serlo si no tiene solución.",
+        "author": "Eduardo Mendoza"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 28 September",
+        "info": null
+      },
+      {
+        "name": "Tuesday 29 September",
+        "info": null
+      },
+      {
+        "name": "Wednesday 30 September",
+        "info": null
+      },
+      {
+        "name": "Thursday 1 October",
+        "info": null
+      },
+      {
+        "name": "Friday 2 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Capitalism is the extraordinary belief that the nastiest of men for the nasties of motives will somehow work for the benefit of all.",
+        "author": "John Maynard Keynes"
+      },
+      {
+        "text": "I'll show you a little trick",
+        "author": "Mr. Stevens"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 5 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 6 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 7 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 8 October",
+        "info": null
+      },
+      {
+        "name": "Friday 9 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Never trust a man, who when left alone with a tea cosy... doesn't try it on",
+        "author": "Mr. Campbell"
+      },
+      {
+        "text": "There is no bad weather, there is only bad clothing.",
+        "author": "Ms. Holzhacker"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 12 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 13 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 14 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 15 October",
+        "info": null
+      },
+      {
+        "name": "Friday 16 October",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Organisation ist alles",
+        "author": "Mr. Grubich"
+      },
+      {
+        "text": "If you don't know where you want to go, you can't arrive there.",
+        "author": "Mr. Schwarzbauer"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 19 October",
+        "info": null
+      },
+      {
+        "name": "Tuesday 20 October",
+        "info": null
+      },
+      {
+        "name": "Wednesday 21 October",
+        "info": null
+      },
+      {
+        "name": "Thursday 22 October",
+        "info": null
+      },
+      {
+        "name": "Friday 23 October",
+        "info": ["", "Autumn break begins 24 October - 2 November"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "I find that the harder I work, the more luck I seem to have.",
+        "author": "Thomas Jefferson"
+      },
+      {
+        "text": "However long you think it will take, multiply by three and you'll be about right.",
+        "author": "Mr. Reid"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 2 November",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 3 November",
+        "info": "School resumes"
+      },
+      {
+        "name": "Wednesday 4 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 5 November",
+        "info": null
+      },
+      {
+        "name": "Friday 6 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Money & success don't change people; they merely amplify what is already there.",
+        "author": "Mr. Wegkamp"
+      },
+      {
+        "text": "Have I said that enough times?",
+        "author": "Ms. Clarke"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 9 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 10 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 11 November",
+        "info": "Grade 7 - 12 Parent - Student - Teacher Consultations"
+      },
+      {
+        "name": "Thursday 12 November",
+        "info": null
+      },
+      {
+        "name": "Friday 13 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "It's nice to be important but it's more important to be nice.",
+        "author": "Mr. Sean"
+      },
+      {
+        "text": "I've failed over and over and over again in my life and that is why I succeed.",
+        "author": "Michael Jordan"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 16 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 17 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 18 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 19 November",
+        "info": "Grade 7 - 12 Parent - Student - Teacher Consultations"
+      },
+      {
+        "name": "Friday 20 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "I am easily satisfied, with the very best.",
+        "author": "Winston Churchill"
+      },
+      {
+        "text": "Sweat and smile",
+        "author": "Ms. Holzhacker"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 23 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 24 November",
+        "info": null
+      },
+      {
+        "name": "Wednesday 25 November",
+        "info": null
+      },
+      {
+        "name": "Thursday 26 November",
+        "info": null
+      },
+      {
+        "name": "Friday 27 November",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "It's kind of fun to do the impossible",
+        "author": "Walt Disney"
+      },
+      {
+        "text": "Restez calme et parlez français (keep calm and speak French)",
+        "author": "Mr. Oudart"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 30 November",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 December",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 December",
+        "info": null
+      },
+      {
+        "name": "Friday 4 December",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "When we are no longer able to change a situation, we are challenged to change ourselves.",
+        "author": "Viktor Frankl"
+      },
+      {
+        "text": "Love your exam paper. Treat it well.",
+        "author": "Ms. Fogiel"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 December",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 December",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Wednesday 9 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 10 December",
+        "info": null
+      },
+      {
+        "name": "Friday 11 December",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Winter is coming!",
+        "author": "Jon Snow"
+      },
+      {
+        "text": "Courage is knowing what not to fear.",
+        "author": "Plato"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 December",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 December",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 December",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 December",
+        "info": null
+      },
+      {
+        "name": "Friday 18 December",
+        "info": ["", "Winter break begins 19 December - 10 January"]
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "It is not the strongest of the species that survive, nor the most intelligent that survive. It is the one that is the most adaptable to change.",
+        "author": "Charles Darwin"
+      },
+      {
+        "text": "Each morning we are born again, what we do today matters the most.",
+        "author": "Buddha"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 11 January",
+        "info": "School resumes"
+      },
+      {
+        "name": "Tuesday 12 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 13 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 14 January",
+        "info": null
+      },
+      {
+        "name": "Friday 15 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Piece of cake",
+        "author": "Mr. Stevens"
+      },
+      {
+        "text": "Ever. Body. Is. Perfect.",
+        "author": "Ms. Holzhacker"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 18 January",
+        "info": null
+      },
+      {
+        "name": "Tuesday 19 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 20 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 21 January",
+        "info": null
+      },
+      {
+        "name": "Friday 22 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Not everything that can be counted counts, and not everything that counts can be counted.",
+        "author": "Albert Einstein"
+      },
+      {
+        "text": "El que lee mucho y anda mucho, ve mucho y sabe mucho",
+        "author": "Miguel de Cervantes "
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 25 January",
+        "info": "Grade 12 Mock Exams start"
+      },
+      {
+        "name": "Tuesday 26 January",
+        "info": null
+      },
+      {
+        "name": "Wednesday 27 January",
+        "info": null
+      },
+      {
+        "name": "Thursday 28 January",
+        "info": null
+      },
+      {
+        "name": "Friday 29 January",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "You'll thank me when you are older.",
+        "author": "Ms. Unger"
+      },
+      {
+        "text": "Vorsprung durch Planung. Ich bin doch nicht bloed.",
+        "author": "Mr. Handcock"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 1 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 2 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 3 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 4 February",
+        "info": null
+      },
+      {
+        "name": "Friday 5 February",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Only when the last tree has died and the last river been poisoned and the last fish has been caught will we realise that we cannot eat money.",
+        "author": "Cree Native American Proverb"
+      },
+      {
+        "text": "I would trade all of my technology for an afternoon with Socrates",
+        "author": "Steve Jobs"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 8 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 9 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 10 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 11 February",
+        "info": null
+      },
+      {
+        "name": "Friday 12 February",
+        "info": ["", "February break begins 13 February - 21 February"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Don't annoy the examiner!",
+        "author": "Ms. Dawber"
+      },
+      {
+        "text": "Don't just talk the talk; walk the talk.",
+        "author": "Mr. Zaisser"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 22 February",
+        "info": "School resumes"
+      },
+      {
+        "name": "Tuesday 23 February",
+        "info": null
+      },
+      {
+        "name": "Wednesday 24 February",
+        "info": null
+      },
+      {
+        "name": "Thursday 25 February",
+        "info": null
+      },
+      {
+        "name": "Friday 26 February",
+        "info":
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Truth does not change according to our ability to stomach it.",
+        "author": "Flannery O'Connor"
+      },
+      {
+        "text": "... I need to see more CAS reflections from you!",
+        "author": "Mr. Thomson"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 29 February",
+        "info": null
+      },
+      {
+        "name": "Tuesday 1 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 2 March",
+        "info": null
+      },
+      {
+        "name": "Thursday 3 March",
+        "info": "Secondary School Parent - Student - Teacher Consultations"
+      },
+      {
+        "name": "Friday 4 March",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Whether you think that you can, or that you can't, you are right.",
+        "author": "Henry Ford"
+      },
+      {
+        "text": "It'll be alright on the night!",
+        "author": "Mr Strange"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 7 March",
+        "info": null
+      },
+      {
+        "name": "Tuesday 8 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 9 March",
+        "info": "Secondary School Parent - Student - Teacher Consultations"
+      },
+      {
+        "name": "Thursday 10 March",
+        "info": null
+      },
+      {
+        "name": "Friday 11 March",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Así es -suspiró el coronel-. La vida es la cosa mejor que se ha inventado. ",
+        "author": "Gabriel García Márquez"
+      },
+      {
+        "text": "Grip it and rip it!",
+        "author": "Mr. Bowie"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 14 March",
+        "info": null
+      },
+      {
+        "name": "Tuesday 15 March",
+        "info": null
+      },
+      {
+        "name": "Wednesday 16 March",
+        "info": null
+      },
+      {
+        "name": "Thursday 17 March",
+        "info": null
+      },
+      {
+        "name": "Friday 18 March",
+        "info": ["", "Spring break begins 19 March - 29 March"]
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Let others pride themselves about how many pages they have written; I'd rather boast about the ones I've read.",
+        "author": "Jorge Luis Borges"
+      },
+      {
+        "text": "The teacher can show you the door, but you have to choose to go through it.",
+        "author": "Chinese proverb"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 28 March",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Tuesday 29 March",
+        "info": "School Holiday"
+      },
+      {
+        "name": "Wednesday 30 March",
+        "info": "School resumes"
+      },
+      {
+        "name": "Thursday 31 March",
+        "info": null
+      },
+      {
+        "name": "Friday 1 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "Think before you talk, read before you think",
+        "author": "Unknown"
+      },
+      {
+        "text": "Do not disturb my circles...",
+        "author": "Archimedes"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 4 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 5 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 6 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 7 April",
+        "info": null
+      },
+      {
+        "name": "Friday 8 April",
+        "info":
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Keep your eyes on the stars, and your feet on the ground.",
+        "author": "Theodore Roosevelt"
+      },
+      {
+        "text": "It always seems impossible until it is done.",
+        "author": "Nelson Mandela"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 11 April",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Tuesday 12 April",
+        "info": "School Closed"
+      },
+      {
+        "name": "Wednesday 13 April",
+        "info": "School resumes"
+      },
+      {
+        "name": "Thursday 14 April",
+        "info": null
+      },
+      {
+        "name": "Friday 15 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "I listen, and I forget; I see and I remember; I do and I understand.",
+        "author": "Chinese proverb"
+      },
+      {
+        "text": "No society can surely be flourishing and happy, of which the far greater part of the members are poor and miserable.",
+        "author": "Adam Smith."
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 18 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 19 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 20 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 21 April",
+        "info": null
+      },
+      {
+        "name": "Friday 22 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Pain is only weakness leaving your body.",
+        "author": "Mr. Briggs"
+      },
+      {
+        "text": "I have always imagined that Paradise will be a kind of library",
+        "author": "Jorge Luis Borges"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 25 April",
+        "info": null
+      },
+      {
+        "name": "Tuesday 26 April",
+        "info": null
+      },
+      {
+        "name": "Wednesday 27 April",
+        "info": null
+      },
+      {
+        "name": "Thursday 28 April",
+        "info": null
+      },
+      {
+        "name": "Friday 29 April",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "You know you teach 21st century students when you assign "Exercise 9B #2 only" and a boy asks \"Miss Radtke, what is hashtag two?\"",
+        "author": "Ms. Radtke"
+      },
+      {
+        "text": "The roots of education are bitter, but the fruit is sweet.",
+        "author": "Aristotle"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 2 May",
+        "info": "IB DP Final Examinations start"
+      },
+      {
+        "name": "Tuesday 3 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 4 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 5 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Friday 6 May",
+        "info": "Public Holiday"
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "The ball does not have a handle, you have to work hard to catch it!",
+        "author": "Mr. Nikolic"
+      },
+      {
+        "text": "Life is either a great adventure or nothing",
+        "author": "Helen Keller"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 9 May",
+        "info": null
+      },
+      {
+        "name": "Tuesday 10 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 11 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 12 May",
+        "info": null
+      },
+      {
+        "name": "Friday 13 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "In a gentle way, you can shake the world.",
+        "author": "Mahatma Ghandi"
+      },
+      {
+        "text": "Fall down seven times, get up eight.",
+        "author": "Chinese proverb"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 16 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Tuesday 17 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Wednesday 18 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 19 May",
+        "info": null
+      },
+      {
+        "name": "Friday 20 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Work hard and be nice to people.",
+        "author": "Ms. Blink"
+      },
+      {
+        "text": "And you shall be judged always by how you treat people that - accoridng to your judgement  - have less power than you have.",
+        "author": "Mr. Hoellerer"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 23 May",
+        "info": "Grade 11 Examinations start"
+      },
+      {
+        "name": "Tuesday 24 May",
+        "info": null
+      },
+      {
+        "name": "Wednesday 25 May",
+        "info": null
+      },
+      {
+        "name": "Thursday 26 May",
+        "info": "Public Holiday"
+      },
+      {
+        "name": "Friday 27 May",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "If you don't believe in yourself, nobody else will.",
+        "author": "Mr. Wegkamp"
+      },
+      {
+        "text": "A day has 24 hours",
+        "author": "Ms. Seiler after marking tests (some students do not know this)"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 30 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 31 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 1 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 2 June",
+        "info": null
+      },
+      {
+        "name": "Friday 3 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "Sometimes you can't see yourself clearly until you see yourself through the eyes of others.",
+        "author": "Ellen DeGeneres"
+      },
+      {
+        "text": "Don't ask me who's influenced me. A lion is made up of the lambs he's digested, and I've been reading all my life.",
+        "author": "Giorgos Seferis"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 6 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 7 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 8 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 9 June",
+        "info": null
+      },
+      {
+        "name": "Friday 10 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "B",
+    "quotes": [
+      {
+        "text": "I have nothing to offer but blood, tears and sweat.",
+        "author": "Winston Churchill"
+      },
+      {
+        "text": "The best way to predict your future is to create it.",
+        "author": "Abraham Lincoln"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 13 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 14 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 15 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 16 June",
+        "info": null
+      },
+      {
+        "name": "Friday 17 June",
+        "info": null
+      }
+    ]
+  },
+  {
+    "type": "A",
+    "quotes": [
+      {
+        "text": "The place to be is where you are.",
+        "author": "Mr. Sean"
+      },
+      {
+        "text": "Teachers are also human beings, did you know?",
+        "author": "Ms. Pagura"
+      }
+    ],
+    "days": [
+      {
+        "name": "Monday 20 June",
+        "info": null
+      },
+      {
+        "name": "Tuesday 21 June",
+        "info": null
+      },
+      {
+        "name": "Wednesday 22 June",
+        "info": null
+      },
+      {
+        "name": "Thursday 23 June",
+        "info": null
+      },
+      {
+        "name": "Friday 24 June",
+        "info": "Last day of school"
+      }
+    ]
+  }
+]
